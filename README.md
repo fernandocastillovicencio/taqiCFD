@@ -4,20 +4,20 @@ taqiCFD is a web-based interactive tool that allows users to simulate and analyz
 
 ## Features
 
-Upload or draw a 2D geometry (circle, square, polygon, etc.).
+- Upload or draw a 2D geometry (circle, square, polygon, etc.).
 
-Configure boundary conditions, such as velocity, pressure, and domain size.
+- Configure boundary conditions, such as velocity, pressure, and domain size.
 
-Instant CFD predictions using a pre-trained model.
+- Instant CFD predictions using a pre-trained model.
 
-Interactive UI with multiple tabs, buttons, and visualization tools.
+- Interactive UI with multiple tabs, buttons, and visualization tools.
 
-Fast and lightweight—no need for heavy CFD computations.
+- Fast and lightweight—no need for heavy CFD computations.
 
 ## Future Additions
 
-Advanced geometry manipulation.
+- Advanced geometry manipulation.
 
-More boundary condition customization.
+- More boundary condition customization.
 
-Export and compare results.
+- Export and compare results.
