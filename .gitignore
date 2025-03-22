@@ -1,0 +1,20 @@
+# dependências
+node_modules/
+
+# build output
+/dist
+/build
+
+# arquivos de configuração do ambiente
+.env
+
+# arquivos de sistema
+.DS_Store
+
+# dependências de versão (opcional, mas geralmente é bom manter)
+package-lock.json
+# ou yarn.lock
+
+# arquivos específicos do editor
+.vscode/
+
