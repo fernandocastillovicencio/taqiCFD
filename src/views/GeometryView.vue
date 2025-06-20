@@ -92,36 +92,65 @@ export default {
 
 <style scoped>
 .geometry-container {
-  text-align: center;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  min-height: 100vh;
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
 h2 {
-  color: #fff;
+  color: #61dafb;
+  margin-bottom: 10px;
 }
 
 p {
   color: #ccc;
+  margin-bottom: 20px;
 }
 
 .toolbar {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .toolbar button {
   font-size: 1.5em;
-  padding: 5px 10px;
-  background: #333;
-  color: white;
-  border: none;
-  border-radius: 5px;
+  padding: 10px 15px;
+  background: #292929;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 8px;
   cursor: pointer;
+  transition: background 0.2s;
 }
 
 .toolbar button:hover {
-  background: #555;
+  background: #3d3d3d;
 }
+
+.dimension-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.dimension-bar label {
+  color: #bbb;
+}
+
+.dimension-bar select,
+.dimension-bar input[type="range"] {
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 5px;
+}
+
 </style>
