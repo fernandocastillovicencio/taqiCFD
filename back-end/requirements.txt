@@ -1,4 +1,10 @@
-flask==3.0.2
-firebase-admin==6.2.0
-python-dotenv==1.0.0
-pyrebase4==4.5.0
+Flask>=2.2
+Flask-Cors>=4.0
+firebase-admin>=6.0
+numpy>=1.23
+scipy>=1.9
+torch>=2.0
+python-dotenv>=1.0
+
+//pip install -r requirements.txt
+//use o comando acima para instalar as dependências listadas no arquivo requirements.txt
