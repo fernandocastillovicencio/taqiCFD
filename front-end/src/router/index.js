@@ -1,20 +1,23 @@
-import { createRouter, createWebHistory } from "vue-router";
-import GeometryView from "../views/GeometryView.vue";
-import SimulationView from "../views/SimulationView.vue";
-import ResultsView from "../views/ResultsView.vue";
-import AboutUs from "../views/AboutUs.vue";
+import { createRouter, createWebHistory } from 'vue-router'
+import CFDView from '@/views/CFDView.vue'
+import AboutUs from '@/views/AboutUs.vue'
 
 const routes = [
-  { path: "/", redirect: "/geometry" },
-  { path: "/geometry", component: GeometryView },
-  { path: "/simulation", component: SimulationView },
-  { path: "/results", component: ResultsView },
-  { path: "/about", component: AboutUs},
-];
+  {
+    path: '/',
+    name: 'Home',
+    component: CFDView
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: AboutUs
+  }
+]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes,
-});
+  routes
+})
 
-export default router;
+export default router

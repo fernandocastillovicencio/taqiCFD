@@ -1,27 +1,27 @@
 <template>
-  <div class="sobre-nos-container">
-    <h1>Sobre Nós</h1>
-    <SobreTabs />
+  <div class="min-h-screen gradient-slate">
+    <div class="container-page">
+      <!-- Header -->
+      <div class="header-section animate-fade-in">
+        <h1 class="title-main">Sobre Nós</h1>
+        <p class="subtitle-text">Conheça mais sobre o projeto taqiCFD e nossa equipe</p>
+      </div>
+
+      <!-- Tabs Component -->
+      <div class="animate-slide-up">
+        <SobreTabs />
+      </div>
+    </div>
   </div>
 </template>
 
-<script setup>
+<script>
 import SobreTabs from '@/components/SobreTabs.vue'
+
+export default {
+  name: 'AboutUs',
+  components: {
+    SobreTabs
+  }
+}
 </script>
-
-<style scoped>
-.sobre-nos-container {
-  background-color: #1e1e1e;
-  color: #e0e0e0;
-  min-height: 100vh;
-  padding: 40px 20px;
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-}
-
-h1 {
-  text-align: center;
-  font-size: 2.5rem;
-  color: #61dafb;
-  margin-bottom: 30px;
-}
-</style>

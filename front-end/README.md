@@ -23,12 +23,6 @@ taqiCFD is a web-based interactive tool that allows users to simulate and analyz
 - Export and compare results.
 
 
-dependencias ate agora 
-
-npm install
-npm install tailwindcss 
-
-
 Data: 13/06/2025
 
 Realizei ajustes na estilização base do projeto, com foco em melhorar a consistência visual.
