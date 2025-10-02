@@ -6,5 +6,3 @@ scipy>=1.9
 torch>=2.0
 python-dotenv>=1.0
 
-//pip install -r requirements.txt
-//use o comando acima para instalar as dependências listadas no arquivo requirements.txt
